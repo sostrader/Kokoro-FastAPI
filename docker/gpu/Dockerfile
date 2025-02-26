@@ -1,5 +1,5 @@
 FROM --platform=$BUILDPLATFORM nvidia/cuda:12.4.0-cudnn-runtime-ubuntu24.04
-# Set non-interactive frontend
+
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Install Python and other dependencies
